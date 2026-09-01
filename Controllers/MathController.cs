@@ -35,7 +35,7 @@ public class MathController : ControllerBase
         // Aqui chequeamos si el numero que mandaron es menor que cero.
         {
             return BadRequest("El numero debe ser mayor o igual a 0.");
-            // Si mandan un numero negativo, devolvemos un error 400.
+            // Si mandan un numero negativo, devolvemos un mensaje indicando que hay un error sin eso del 404 no found.
             // O sea, la API le dice al usuario que ese dato no es valido.
         }
 
